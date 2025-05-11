@@ -11,11 +11,17 @@ export const Layout = () => {
       <Header />
 
       <main className={styles.main}>
-        <NavBar />
+        <div className={styles.actions}>
+          <NavBar />
+        </div>
 
-        <Outlet />
+        <div className={styles.inner}>
+          <Outlet />
+        </div>
 
-        <div className="">Пока пусто</div>
+        <div className={styles.details}>
+          <div className="">Пока пусто</div>
+        </div>
       </main>
     </Container>
   );

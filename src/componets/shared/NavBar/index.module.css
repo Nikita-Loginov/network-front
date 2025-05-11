@@ -5,13 +5,8 @@
   gap: 15px;
 }
 
-.nav {
-    max-width: 300px;
-    width: 100%;
-}
-
 .list {
-    gap: 7px;
+  gap: 7px;
 }
 
 .link {
@@ -19,11 +14,11 @@
   align-items: center;
   gap: 10px;
   padding: 10px;
-  transition: background-color .5s;
+  transition: background-color 0.5s;
   border-radius: 10px;
   font-size: 22px;
   font-weight: 500;
-  
+
   &:hover {
     background-color: hsl(0, 0%, 60%);
   }

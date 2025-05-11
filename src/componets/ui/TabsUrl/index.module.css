@@ -1,0 +1,39 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: var(--bg-color);
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .link {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    transition: color .5s;
+  
+    &.active {
+      color: var( --bg-color)
+    }
+  
+    a {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  
+  .decor {
+    position: absolute;
+    height: 20px;
+    background-color: var(--main-color);
+    opacity: 0.6;
+    padding: 10px;
+    box-sizing: content-box;
+    z-index: 0;
+    top: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
