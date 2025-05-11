@@ -1,9 +1,13 @@
+import { useSelector } from "react-redux";
+import type { RootState } from "./redux/store";
+
 function App() {
+  const theme = useSelector((state: RootState) => state.theme.theme);
+
   return (
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-      repellendus.
-    </p>
+    <div className={`wrapper ${theme}`}>
+      
+    </div>
   );
 }
 

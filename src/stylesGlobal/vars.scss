@@ -1,0 +1,11 @@
+.wrapper {
+  &.light {
+    --bg-color: #ffffff;
+    --main-color: #000000;
+  }
+
+  &.dark {
+    --bg-color: #000000;
+    --main-color: #ffffff;
+  }
+}
